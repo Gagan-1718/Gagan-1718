@@ -9,7 +9,7 @@
 
 <!-- ═══════════════════ HERO BANNER ═══════════════════ -->
 <div align="center">
-  <img src="assets/banner.svg" alt="Gagandeep N — Software that sees, thinks, and ships." width="100%" />
+  <img src="assets/banner.svg?v=2" alt="Gagandeep N — Software that sees, thinks, and ships." width="100%" />
 </div>
 
 <!-- ═══════════════════ TYPING BOOT SEQUENCE ═══════════════════ -->
@@ -17,13 +17,13 @@
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=2800&pause=700&color=22D3EE&center=true&vCenter=true&width=760&height=48&lines=Computer+Science+Undergraduate;Software+Development+Engineer;Full+Stack+Developer+%E2%80%94+MERN;Turning+real+problems+into+shipped+software" alt="Computer Science Undergraduate · Software Development Engineer · Full Stack Developer" />
 </div>
 
-<img src="assets/divider.svg" width="100%" alt="" />
+<img src="assets/divider.svg?v=2" width="100%" alt="" />
 
 <!-- ═══════════════════ 01 · PLAYER DOSSIER ═══════════════════ -->
 ### `01 //` PLAYER DOSSIER — SYSTEM STATUS
 
 <div align="center">
-  <img src="assets/dossier.svg" alt="Player dossier: Gagandeep N, Software Development Engineer, 13 public repos, open to collaboration" width="100%" />
+  <img src="assets/dossier.svg?v=2" alt="Player dossier: Gagandeep N, Software Development Engineer, 13 public repos, open to collaboration" width="100%" />
 </div>
 
 <details>
@@ -42,13 +42,13 @@
 
 </details>
 
-<img src="assets/divider.svg" width="100%" alt="" />
+<img src="assets/divider.svg?v=2" width="100%" alt="" />
 
 <!-- ═══════════════════ 02 · TECH INVENTORY ═══════════════════ -->
 ### `02 //` TECH INVENTORY
 
 <div align="center">
-  <img src="assets/inventory.svg" alt="Tech inventory: languages, core CS, AI/ML, frameworks, data stores, tools and libraries" width="100%" />
+  <img src="assets/inventory.svg?v=2" alt="Tech inventory: languages, core CS, AI/ML, frameworks, data stores, tools and libraries" width="100%" />
 </div>
 
 <details>
@@ -104,20 +104,20 @@
 
 </details>
 
-<img src="assets/divider.svg" width="100%" alt="" />
+<img src="assets/divider.svg?v=2" width="100%" alt="" />
 
 <!-- ═══════════════════ 03 · SKILL TREE ═══════════════════ -->
 ### `03 //` SKILL TREE
 
 <div align="center">
-  <img src="assets/skill-tree.svg" alt="Skill tree with four branches: AI and Vision, Full Stack, Core CS, Data and Tools" width="100%" />
+  <img src="assets/skill-tree.svg?v=2" alt="Skill tree with four branches: AI and Vision, Full Stack, Core CS, Data and Tools" width="100%" />
 </div>
 
-<img src="assets/divider.svg" width="100%" alt="" />
+<img src="assets/divider.svg?v=2" width="100%" alt="" />
 
 <!-- ═══════════════════ FOOTER ═══════════════════ -->
 <div align="center">
-  <img src="assets/footer.svg" width="100%" alt="End of transmission" />
+  <img src="assets/footer.svg?v=2" width="100%" alt="End of transmission" />
 </div>
 
 <div align="center">
