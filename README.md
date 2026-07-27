@@ -116,7 +116,7 @@
 <img src="assets/divider.svg?v=2" width="100%" alt="" />
 
 <!-- ═══════════════════ 04 · CONNECT ═══════════════════ -->
-### `04 //` CONNECT — OPEN CHANNELS
+### Connect with me
 
 <div align="center">
 
@@ -149,17 +149,9 @@
 
 </details>
 
-<div align="center">
-  <sub><code>⌁ Status: 🟢 open to collaboration · fastest reply on LinkedIn ⌁</code></sub>
-</div>
-
 <img src="assets/divider.svg?v=2" width="100%" alt="" />
 
 <!-- ═══════════════════ FOOTER ═══════════════════ -->
 <div align="center">
   <img src="assets/footer.svg?v=2" width="100%" alt="End of transmission" />
-</div>
-
-<div align="center">
-  <sub><code>⌁ Built by Gagandeep N · designed like a HUD, written like production code ⌁</code></sub>
 </div>
