@@ -1,3 +1,4 @@
+<!-- GitHub Profile Hero Page -->
 <!--
 ╔══════════════════════════════════════════════════════════════════════════╗
 ║  GAGANDEEP N · GITHUB PROFILE README                                     ║
