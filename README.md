@@ -115,6 +115,46 @@
 
 <img src="assets/divider.svg?v=2" width="100%" alt="" />
 
+<!-- ═══════════════════ 04 · CONNECT ═══════════════════ -->
+### `04 //` CONNECT — OPEN CHANNELS
+
+<div align="center">
+
+<a href="https://www.linkedin.com/in/gagandeep1718/">
+  <img src="https://img.shields.io/badge/LinkedIn-0A0F16?style=for-the-badge&logo=linkedin&logoColor=7CB0FF&labelColor=09090B" alt="LinkedIn — gagandeep1718" />
+</a>
+<a href="https://www.instagram.com/oii_gagan/">
+  <img src="https://img.shields.io/badge/Instagram-0A0F16?style=for-the-badge&logo=instagram&logoColor=FF6FAE&labelColor=09090B" alt="Instagram — oii_gagan" />
+</a>
+<a href="mailto:jsspshsr.ixc.gagandeep@gmail.com">
+  <img src="https://img.shields.io/badge/Email-0A0F16?style=for-the-badge&logo=gmail&logoColor=22D3EE&labelColor=09090B" alt="Email — jsspshsr.ixc.gagandeep@gmail.com" />
+</a>
+<a href="https://github.com/Gagan-1718">
+  <img src="https://img.shields.io/badge/GitHub-0A0F16?style=for-the-badge&logo=github&logoColor=C99BFF&labelColor=09090B" alt="GitHub — Gagan-1718" />
+</a>
+
+</div>
+
+<details>
+<summary><b>◈ Read as plain text</b></summary>
+
+<br />
+
+| CHANNEL | HANDLE |
+| :--- | :--- |
+| **LinkedIn** | [gagandeep1718](https://www.linkedin.com/in/gagandeep1718/) |
+| **Instagram** | [@oii_gagan](https://www.instagram.com/oii_gagan/) |
+| **Email** | [jsspshsr.ixc.gagandeep@gmail.com](mailto:jsspshsr.ixc.gagandeep@gmail.com) |
+| **GitHub** | [@Gagan-1718](https://github.com/Gagan-1718) |
+
+</details>
+
+<div align="center">
+  <sub><code>⌁ Status: 🟢 open to collaboration · fastest reply on LinkedIn ⌁</code></sub>
+</div>
+
+<img src="assets/divider.svg?v=2" width="100%" alt="" />
+
 <!-- ═══════════════════ FOOTER ═══════════════════ -->
 <div align="center">
   <img src="assets/footer.svg?v=2" width="100%" alt="End of transmission" />
