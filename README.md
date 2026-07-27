@@ -14,7 +14,7 @@
 
 <!-- ═══════════════════ TYPING BOOT SEQUENCE ═══════════════════ -->
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=2800&pause=700&color=22D3EE&center=true&vCenter=true&width=760&height=48&lines=Computer+Science+Undergraduate;AI+%2F+Computer+Vision+Enthusiast;Full+Stack+Developer+%E2%80%94+MERN;Turning+real+problems+into+shipped+software" alt="Computer Science Undergraduate · AI / Computer Vision Enthusiast · Full Stack Developer" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=2800&pause=700&color=22D3EE&center=true&vCenter=true&width=760&height=48&lines=Computer+Science+Undergraduate;Software+Development+Engineer;Full+Stack+Developer+%E2%80%94+MERN;Turning+real+problems+into+shipped+software" alt="Computer Science Undergraduate · Software Development Engineer · Full Stack Developer" />
 </div>
 
 <img src="assets/divider.svg" width="100%" alt="" />
@@ -23,7 +23,7 @@
 ### `01 //` PLAYER DOSSIER — SYSTEM STATUS
 
 <div align="center">
-  <img src="assets/dossier.svg" alt="Player dossier: Gagandeep N, AI/CV engineer and full stack developer, status online" width="100%" />
+  <img src="assets/dossier.svg" alt="Player dossier: Gagandeep N, Software Development Engineer, 13 public repos, open to collaboration" width="100%" />
 </div>
 
 <details>
@@ -34,43 +34,18 @@
 | FIELD | VALUE |
 | :--- | :--- |
 | **Player name** | Gagandeep N `@Gagan-1718` |
-| **Role** | AI / Computer Vision Engineer · Full Stack Developer |
-| **Level** | Computer Science undergraduate |
-| **Primary domain** | Computer Vision · Image Processing · Perception |
-| **Current focus** | Vision models + MERN applications, shipped end to end |
-| **Location** | India · UTC +05:30 · remote friendly <!-- ⚙ REPLACE: your city --> |
-| **Status** | 🟢 Online — open to collaboration & internships |
-| **Learning** | Deep learning · System design |
+| **Role** | Software Development Engineer |
+| **Repositories** | 13 public |
+| **College** | PES University · Computer Science |
+| **Location** | India · UTC +05:30 |
+| **Status** | 🟢 Open to collaboration |
 
 </details>
 
 <img src="assets/divider.svg" width="100%" alt="" />
 
-<!-- ═══════════════════ 02 · MISSION LOG ═══════════════════ -->
-### `02 //` MISSION LOG
-
-```text
-┌──────────────────────────────────────────────────────────┐
-│                                                          │
-│  ▸ CS undergraduate going deep on algorithms, systems    │
-│    and the maths that makes models actually work.        │
-│                                                          │
-│  ▸ AI & Computer Vision — teaching machines to see, from │
-│    image processing to real-time detection pipelines.    │
-│                                                          │
-│  ▸ Full Stack (MERN + FastAPI) — I ship the whole thing: │
-│    model, API, interface, database, deploy.              │
-│                                                          │
-│  ▸ Open source contributor and permanent student. Real   │
-│    problems first, buzzwords never.                      │
-│                                                          │
-└──────────────────────────────────────────────────────────┘
-```
-
-<img src="assets/divider.svg" width="100%" alt="" />
-
-<!-- ═══════════════════ 03 · TECH INVENTORY ═══════════════════ -->
-### `03 //` TECH INVENTORY
+<!-- ═══════════════════ 02 · TECH INVENTORY ═══════════════════ -->
+### `02 //` TECH INVENTORY
 
 <div align="center">
   <img src="assets/inventory.svg" alt="Tech inventory: languages, core CS, AI/ML, frameworks, data stores, tools and libraries" width="100%" />
@@ -131,8 +106,8 @@
 
 <img src="assets/divider.svg" width="100%" alt="" />
 
-<!-- ═══════════════════ 04 · SKILL TREE ═══════════════════ -->
-### `04 //` SKILL TREE
+<!-- ═══════════════════ 03 · SKILL TREE ═══════════════════ -->
+### `03 //` SKILL TREE
 
 <div align="center">
   <img src="assets/skill-tree.svg" alt="Skill tree with four branches: AI and Vision, Full Stack, Core CS, Data and Tools" width="100%" />
