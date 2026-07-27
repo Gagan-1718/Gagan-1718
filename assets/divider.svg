@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 32" width="1200" height="32" role="img" aria-label="Neon section divider">
+  <title>Section divider</title>
+  <defs>
+    <linearGradient id="dLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="0.18" stop-color="#22D3EE" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#A855F7" stop-opacity="0.75"/>
+      <stop offset="0.82" stop-color="#22D3EE" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="dPulse" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#67E8F9" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#67E8F9" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="dGlow" x="-50%" y="-400%" width="200%" height="900%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="32" fill="#09090B"/>
+
+  <!-- base rails -->
+  <rect x="0" y="15.2" width="1200" height="1.6" fill="url(#dLine)"/>
+  <g stroke="#22D3EE" stroke-opacity="0.30" stroke-width="1">
+    <path d="M120 10 v12 M160 12 v8 M200 10 v12 M240 12 v8 M280 10 v12"/>
+    <path d="M920 10 v12 M960 12 v8 M1000 10 v12 M1040 12 v8 M1080 10 v12"/>
+  </g>
+
+  <!-- centre hex node -->
+  <g filter="url(#dGlow)">
+    <path d="M600 4 L613 11.5 L613 20.5 L600 28 L587 20.5 L587 11.5 Z" fill="#09090B" stroke="#67E8F9" stroke-width="1.4"/>
+    <path d="M600 11 L606 14.5 L606 21.5 L600 25 L594 21.5 L594 14.5 Z" fill="#22D3EE" fill-opacity="0.85">
+      <animate attributeName="fill-opacity" values="0.85;0.25;0.85" dur="2.6s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <g fill="none" stroke="#A855F7" stroke-width="1.2" opacity="0.7">
+    <path d="M556 16 l10 -6 M556 16 l10 6"/>
+    <path d="M644 16 l-10 -6 M644 16 l-10 6"/>
+  </g>
+
+  <!-- travelling pulse -->
+  <rect x="-200" y="14.8" width="200" height="2.4" rx="1.2" fill="url(#dPulse)" filter="url(#dGlow)">
+    <animate attributeName="x" values="-200;1200" dur="5.5s" repeatCount="indefinite"/>
+  </rect>
+</svg>

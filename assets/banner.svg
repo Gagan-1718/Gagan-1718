@@ -1,0 +1,413 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" role="img" aria-label="Gagandeep N — Software that sees, thinks, and ships. AI, Computer Vision and Full Stack Engineering.">
+  <title>Gagandeep N — Software that sees, thinks, and ships.</title>
+
+  <defs>
+    <!-- ── palette gradients ─────────────────────────────────────────── -->
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#09090B"/>
+      <stop offset="0.55" stop-color="#0A0D14"/>
+      <stop offset="1" stop-color="#09090B"/>
+    </linearGradient>
+
+    <radialGradient id="auraCyan" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="auraPurple" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#A855F7" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#A855F7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="auraPink" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FF2E88" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#FF2E88" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#67E8F9"/>
+      <stop offset="0.42" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#A855F7"/>
+    </linearGradient>
+
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#67E8F9" stop-opacity="1"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="glassPanel" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#A855F7" stop-opacity="0.04"/>
+    </linearGradient>
+
+    <linearGradient id="cityGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#111A24"/>
+      <stop offset="1" stop-color="#080A0E"/>
+    </linearGradient>
+
+    <linearGradient id="scanGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#67E8F9" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="fadeMaskGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.9"/>
+      <stop offset="0.75" stop-color="#fff" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="fadeMaskSide" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.35" stop-color="#fff" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.9"/>
+    </linearGradient>
+
+    <!-- ── textures ──────────────────────────────────────────────────── -->
+    <pattern id="hexGrid" width="27.71" height="48" patternUnits="userSpaceOnUse">
+      <g fill="none" stroke="#22D3EE" stroke-width="0.7">
+        <path d="M13.855 -16 L27.71 -8 L27.71 8 L13.855 16 L0 8 L0 -8 Z"/>
+        <path d="M13.855 32 L27.71 40 L27.71 56 L13.855 64 L0 56 L0 40 Z"/>
+        <path d="M0 8 L13.855 16 L13.855 32 L0 40 L-13.855 32 L-13.855 16 Z"/>
+        <path d="M27.71 8 L41.565 16 L41.565 32 L27.71 40 L13.855 32 L13.855 16 Z"/>
+      </g>
+    </pattern>
+
+    <pattern id="microGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0 L0 0 L0 24" fill="none" stroke="#22D3EE" stroke-width="0.4"/>
+    </pattern>
+
+    <mask id="hexFade">
+      <rect x="0" y="0" width="1200" height="400" fill="url(#fadeMaskGrad)"/>
+    </mask>
+    <mask id="gridFade">
+      <rect x="0" y="0" width="1200" height="400" fill="url(#fadeMaskSide)"/>
+    </mask>
+
+    <!-- ── filters ───────────────────────────────────────────────────── -->
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glowSm" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="blurBig" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+
+    <clipPath id="feedClip"><rect x="972" y="86" width="182" height="112" rx="6"/></clipPath>
+    <clipPath id="stage"><rect x="0" y="0" width="1200" height="400"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#stage)">
+    <!-- ══ BACKGROUND ══════════════════════════════════════════════════ -->
+    <rect width="1200" height="400" fill="url(#bgGrad)"/>
+    <ellipse cx="180" cy="90" rx="420" ry="260" fill="url(#auraCyan)"/>
+    <ellipse cx="1080" cy="150" rx="400" ry="280" fill="url(#auraPurple)"/>
+    <ellipse cx="640" cy="380" rx="380" ry="180" fill="url(#auraPink)"/>
+
+    <!-- hex + micro grid textures -->
+    <g mask="url(#hexFade)" opacity="0.30">
+      <rect width="1200" height="400" fill="url(#hexGrid)"/>
+    </g>
+    <g mask="url(#gridFade)" opacity="0.22">
+      <rect width="1200" height="400" fill="url(#microGrid)"/>
+    </g>
+
+    <!-- ══ CIRCUIT TRACES ══════════════════════════════════════════════ -->
+    <g fill="none" stroke="#22D3EE" stroke-width="1" opacity="0.42">
+      <path d="M-10 268 H120 L150 238 H340 L368 266 H520"/>
+      <path d="M-10 300 H86 L112 274 H300"/>
+      <path d="M1210 74 H1080 L1052 102 H900"/>
+      <path d="M1210 250 H1128 L1100 222 H980 L954 248 H860"/>
+      <path d="M600 -10 V44 L628 72 V120"/>
+    </g>
+    <g fill="none" stroke="#67E8F9" stroke-width="1.6" stroke-linecap="round" opacity="0.9" filter="url(#glowSm)">
+      <path d="M-10 268 H120 L150 238 H340 L368 266 H520" stroke-dasharray="46 700">
+        <animate attributeName="stroke-dashoffset" from="746" to="0" dur="7s" repeatCount="indefinite"/>
+      </path>
+      <path d="M1210 250 H1128 L1100 222 H980 L954 248 H860" stroke-dasharray="40 600" stroke="#A855F7">
+        <animate attributeName="stroke-dashoffset" from="0" to="640" dur="8s" repeatCount="indefinite"/>
+      </path>
+      <path d="M600 -10 V44 L628 72 V120" stroke-dasharray="24 200" stroke="#3BFFA1">
+        <animate attributeName="stroke-dashoffset" from="224" to="0" dur="5s" repeatCount="indefinite"/>
+      </path>
+    </g>
+    <g fill="#09090B" stroke="#22D3EE" stroke-width="1.4">
+      <circle cx="150" cy="238" r="3.4"/><circle cx="368" cy="266" r="3.4"/>
+      <circle cx="1052" cy="102" r="3.4"/><circle cx="954" cy="248" r="3.4"/>
+      <circle cx="628" cy="72" r="3.4"/>
+    </g>
+
+    <!-- ══ CITY SILHOUETTE ═════════════════════════════════════════════ -->
+    <g opacity="0.9">
+      <rect x="0" y="312" width="1200" height="2" fill="#22D3EE" opacity="0.25" filter="url(#blurBig)"/>
+      <g fill="url(#cityGrad)">
+        <rect x="-4" y="330" width="64" height="70"/>   <rect x="62" y="352" width="34" height="48"/>
+        <rect x="100" y="316" width="48" height="84"/>  <rect x="152" y="344" width="28" height="56"/>
+        <rect x="184" y="300" width="70" height="100"/> <rect x="258" y="338" width="40" height="62"/>
+        <rect x="302" y="322" width="54" height="78"/>  <rect x="360" y="350" width="30" height="50"/>
+        <rect x="394" y="308" width="66" height="92"/>  <rect x="464" y="342" width="36" height="58"/>
+        <rect x="504" y="326" width="50" height="74"/>  <rect x="558" y="348" width="28" height="52"/>
+        <rect x="590" y="296" width="74" height="104"/> <rect x="668" y="340" width="34" height="60"/>
+        <rect x="706" y="318" width="58" height="82"/>  <rect x="768" y="346" width="30" height="54"/>
+        <rect x="802" y="304" width="64" height="96"/>  <rect x="870" y="338" width="38" height="62"/>
+        <rect x="912" y="322" width="52" height="78"/>  <rect x="968" y="350" width="30" height="50"/>
+        <rect x="1002" y="300" width="68" height="100"/><rect x="1074" y="340" width="36" height="60"/>
+        <rect x="1114" y="318" width="50" height="82"/> <rect x="1168" y="346" width="40" height="54"/>
+      </g>
+      <!-- rim light on rooftops -->
+      <g fill="#22D3EE" opacity="0.55">
+        <rect x="-4" y="330" width="64" height="1.4"/>  <rect x="100" y="316" width="48" height="1.4"/>
+        <rect x="184" y="300" width="70" height="1.4"/> <rect x="302" y="322" width="54" height="1.4"/>
+        <rect x="394" y="308" width="66" height="1.4"/> <rect x="504" y="326" width="50" height="1.4"/>
+        <rect x="590" y="296" width="74" height="1.4"/> <rect x="706" y="318" width="58" height="1.4"/>
+        <rect x="802" y="304" width="64" height="1.4"/> <rect x="912" y="322" width="52" height="1.4"/>
+        <rect x="1002" y="300" width="68" height="1.4"/><rect x="1114" y="318" width="50" height="1.4"/>
+      </g>
+      <!-- antennae -->
+      <g stroke="#A855F7" stroke-width="1" opacity="0.6">
+        <path d="M219 300 V276"/><path d="M627 296 V266"/><path d="M1036 300 V272"/>
+      </g>
+      <g fill="#FF2E88">
+        <circle cx="219" cy="274" r="2"><animate attributeName="opacity" values="1;0.1;1" dur="2.4s" repeatCount="indefinite"/></circle>
+        <circle cx="627" cy="264" r="2"><animate attributeName="opacity" values="0.1;1;0.1" dur="3.1s" repeatCount="indefinite"/></circle>
+        <circle cx="1036" cy="270" r="2"><animate attributeName="opacity" values="1;0.1;1" dur="2.8s" repeatCount="indefinite"/></circle>
+      </g>
+      <!-- windows -->
+      <g fill="#67E8F9" opacity="0.35">
+        <rect x="192" y="312" width="4" height="6"/><rect x="202" y="312" width="4" height="6"/><rect x="212" y="324" width="4" height="6"/>
+        <rect x="232" y="316" width="4" height="6"/><rect x="242" y="330" width="4" height="6"/><rect x="196" y="340" width="4" height="6"/>
+        <rect x="404" y="320" width="4" height="6"/><rect x="418" y="332" width="4" height="6"/><rect x="436" y="318" width="4" height="6"/>
+        <rect x="446" y="344" width="4" height="6"/><rect x="600" y="308" width="4" height="6"/><rect x="614" y="322" width="4" height="6"/>
+        <rect x="632" y="310" width="4" height="6"/><rect x="646" y="336" width="4" height="6"/><rect x="812" y="316" width="4" height="6"/>
+        <rect x="828" y="330" width="4" height="6"/><rect x="844" y="318" width="4" height="6"/><rect x="1012" y="312" width="4" height="6"/>
+        <rect x="1028" y="328" width="4" height="6"/><rect x="1046" y="314" width="4" height="6"/>
+      </g>
+    </g>
+
+    <!-- ══ FLOATING PARTICLES ══════════════════════════════════════════ -->
+    <g>
+      <circle cx="120" cy="330" r="1.6" fill="#67E8F9"><animate attributeName="cy" values="330;150" dur="11s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.9;0" dur="11s" repeatCount="indefinite"/></circle>
+      <circle cx="255" cy="360" r="1.2" fill="#A855F7"><animate attributeName="cy" values="360;180" dur="14s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="14s" repeatCount="indefinite"/></circle>
+      <circle cx="430" cy="345" r="1.8" fill="#22D3EE"><animate attributeName="cy" values="345;120" dur="16s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.7;0" dur="16s" repeatCount="indefinite"/></circle>
+      <circle cx="560" cy="380" r="1.3" fill="#3BFFA1"><animate attributeName="cy" values="380;200" dur="12s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="12s" repeatCount="indefinite"/></circle>
+      <circle cx="700" cy="356" r="1.5" fill="#67E8F9"><animate attributeName="cy" values="356;160" dur="15s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.75;0" dur="15s" repeatCount="indefinite"/></circle>
+      <circle cx="880" cy="372" r="1.2" fill="#FF2E88"><animate attributeName="cy" values="372;210" dur="13s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.65;0" dur="13s" repeatCount="indefinite"/></circle>
+      <circle cx="1030" cy="350" r="1.7" fill="#22D3EE"><animate attributeName="cy" values="350;140" dur="17s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.7;0" dur="17s" repeatCount="indefinite"/></circle>
+      <circle cx="1150" cy="368" r="1.3" fill="#A855F7"><animate attributeName="cy" values="368;190" dur="10s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="10s" repeatCount="indefinite"/></circle>
+      <circle cx="330" cy="120" r="1.1" fill="#67E8F9" opacity="0.5"><animate attributeName="opacity" values="0.15;0.75;0.15" dur="4s" repeatCount="indefinite"/></circle>
+      <circle cx="520" cy="70" r="1.1" fill="#A855F7" opacity="0.5"><animate attributeName="opacity" values="0.7;0.15;0.7" dur="5.5s" repeatCount="indefinite"/></circle>
+      <circle cx="770" cy="46" r="1.1" fill="#22D3EE" opacity="0.5"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="6.5s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <!-- ══ LEFT · IDENTITY BLOCK ═══════════════════════════════════════ -->
+    <g>
+      <!-- status chip -->
+      <g>
+        <rect x="60" y="72" width="252" height="26" rx="13" fill="#22D3EE" fill-opacity="0.07" stroke="#22D3EE" stroke-opacity="0.42"/>
+        <circle cx="78" cy="85" r="4" fill="#3BFFA1">
+          <animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="78" cy="85" r="4" fill="none" stroke="#3BFFA1" stroke-width="1">
+          <animate attributeName="r" values="4;10" dur="1.8s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0.7;0" dur="1.8s" repeatCount="indefinite"/>
+        </circle>
+        <text x="92" y="90" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" letter-spacing="2.2" fill="#8FE9F5">SYSTEM ONLINE // PROFILE_v2</text>
+      </g>
+
+      <!-- name with subtle chromatic split -->
+      <g font-family="Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="62" font-weight="700" letter-spacing="4">
+        <text x="58.5" y="168" fill="#FF2E88" opacity="0.20">
+          GAGANDEEP N
+          <animate attributeName="opacity" values="0.20;0.07;0.20" dur="4s" repeatCount="indefinite"/>
+        </text>
+        <text x="61.5" y="168" fill="#22D3EE" opacity="0.18">GAGANDEEP N</text>
+        <text x="60" y="168" fill="url(#nameGrad)" filter="url(#glow)">GAGANDEEP N</text>
+      </g>
+
+      <!-- accent underbar -->
+      <rect x="60" y="184" width="300" height="2" fill="#22D3EE" opacity="0.25"/>
+      <rect x="60" y="184" width="96" height="2" fill="url(#sweep)">
+        <animate attributeName="x" values="60;264;60" dur="6s" repeatCount="indefinite"/>
+      </rect>
+
+      <!-- tagline -->
+      <text x="60" y="216" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="17" letter-spacing="1.6" fill="#C9D6E4">
+        Software that sees, thinks, and ships.
+      </text>
+
+      <!-- role chips -->
+      <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" letter-spacing="1.2">
+        <g>
+          <rect x="60" y="238" width="178" height="24" rx="4" fill="#22D3EE" fill-opacity="0.06" stroke="#22D3EE" stroke-opacity="0.35"/>
+          <text x="74" y="254" fill="#67E8F9">AI · COMPUTER VISION</text>
+        </g>
+        <g>
+          <rect x="248" y="238" width="133" height="24" rx="4" fill="#A855F7" fill-opacity="0.06" stroke="#A855F7" stroke-opacity="0.35"/>
+          <text x="262" y="254" fill="#C99BFF">FULL STACK DEV</text>
+        </g>
+        <g>
+          <rect x="391" y="238" width="110" height="24" rx="4" fill="#3BFFA1" fill-opacity="0.06" stroke="#3BFFA1" stroke-opacity="0.30"/>
+          <text x="405" y="254" fill="#7CFFC4">OPEN SOURCE</text>
+        </g>
+      </g>
+
+      <!-- readout -->
+      <text x="60" y="288" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" letter-spacing="1.8" fill="#5D6B7E">
+        CLASS: ENGINEER &#160;&#160;|&#160;&#160; SPEC: PERCEPTION SYSTEMS &#160;&#160;|&#160;&#160; UPLINK: STABLE
+      </text>
+    </g>
+
+    <!-- ══ RIGHT · TERMINAL PANEL ══════════════════════════════════════ -->
+    <g>
+      <rect x="640" y="60" width="312" height="158" rx="10" fill="#0B0F16" fill-opacity="0.82" stroke="#22D3EE" stroke-opacity="0.30"/>
+      <rect x="640" y="60" width="312" height="158" rx="10" fill="url(#glassPanel)"/>
+      <path d="M640 88 H952" stroke="#22D3EE" stroke-opacity="0.22"/>
+      <g>
+        <circle cx="658" cy="74" r="3.4" fill="#FF2E88" fill-opacity="0.8"/>
+        <circle cx="670" cy="74" r="3.4" fill="#A855F7" fill-opacity="0.8"/>
+        <circle cx="682" cy="74" r="3.4" fill="#3BFFA1" fill-opacity="0.8"/>
+        <text x="700" y="78" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" letter-spacing="1.4" fill="#6F7E92">vision_core — zsh</text>
+        <text x="906" y="78" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#3BFFA1">● RUN</text>
+      </g>
+      <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11.4">
+        <text x="656" y="110" fill="#3BFFA1">$ <tspan fill="#C9D6E4">python deploy.py --model vision_core</tspan></text>
+        <text x="656" y="128" fill="#A855F7">class <tspan fill="#67E8F9">Perception</tspan><tspan fill="#8B95A7">(nn.Module):</tspan></text>
+        <text x="670" y="146" fill="#A855F7">def <tspan fill="#67E8F9">forward</tspan><tspan fill="#8B95A7">(self, frame):</tspan></text>
+        <text x="684" y="164" fill="#8B95A7">return self.<tspan fill="#FF6FAE">detect</tspan>(frame)</text>
+        <text x="656" y="186" fill="#3BFFA1">✔ <tspan fill="#C9D6E4">3 objects · 27 ms · conf 0.96</tspan></text>
+        <text x="656" y="204" fill="#3BFFA1">$ <tspan fill="#8B95A7">_</tspan>
+          <animate attributeName="opacity" values="1;0.15;1" dur="1.2s" repeatCount="indefinite"/>
+        </text>
+      </g>
+    </g>
+
+    <!-- ══ RIGHT · COMPUTER VISION FEED ════════════════════════════════ -->
+    <g>
+      <rect x="972" y="60" width="182" height="158" rx="10" fill="#0B0F16" fill-opacity="0.82" stroke="#A855F7" stroke-opacity="0.30"/>
+      <text x="986" y="78" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" letter-spacing="1.6" fill="#6F7E92">CAM_01 · DETECT</text>
+      <circle cx="1140" cy="74" r="3" fill="#FF2E88"><animate attributeName="opacity" values="1;0.2;1" dur="1.5s" repeatCount="indefinite"/></circle>
+
+      <g clip-path="url(#feedClip)">
+        <rect x="972" y="86" width="182" height="112" fill="#080C12"/>
+        <rect x="972" y="86" width="182" height="112" fill="url(#microGrid)" opacity="0.35"/>
+        <!-- subject blobs -->
+        <ellipse cx="1018" cy="150" rx="20" ry="26" fill="#22D3EE" fill-opacity="0.10"/>
+        <ellipse cx="1092" cy="158" rx="26" ry="20" fill="#A855F7" fill-opacity="0.10"/>
+        <!-- detection boxes -->
+        <g fill="none" stroke="#3BFFA1" stroke-width="1.2">
+          <rect x="998" y="122" width="40" height="54"/>
+        </g>
+        <text x="998" y="118" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="7.5" fill="#3BFFA1">PERSON 0.98</text>
+        <g fill="none" stroke="#22D3EE" stroke-width="1.2">
+          <rect x="1064" y="140" width="56" height="38"/>
+        </g>
+        <text x="1064" y="136" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="7.5" fill="#67E8F9">OBJECT 0.91</text>
+        <!-- landmark mesh -->
+        <g fill="#FF2E88" opacity="0.85">
+          <circle cx="1008" cy="134" r="1"/><circle cx="1018" cy="132" r="1"/><circle cx="1028" cy="134" r="1"/>
+          <circle cx="1013" cy="144" r="1"/><circle cx="1023" cy="144" r="1"/><circle cx="1018" cy="154" r="1"/>
+        </g>
+        <!-- scan sweep -->
+        <rect x="972" y="86" width="182" height="16" fill="url(#scanGrad)" opacity="0.7">
+          <animate attributeName="y" values="82;188;82" dur="4.4s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+      <!-- feed corner brackets -->
+      <g fill="none" stroke="#67E8F9" stroke-width="1.4" opacity="0.8">
+        <path d="M978 98 V92 H988"/><path d="M1148 98 V92 H1138"/>
+        <path d="M978 186 V192 H988"/><path d="M1148 186 V192 H1138"/>
+      </g>
+      <text x="986" y="212" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" letter-spacing="1.2" fill="#5D6B7E">FPS 60 · IoU 0.87</text>
+    </g>
+
+    <!-- ══ RIGHT · NEURAL NET PANEL ════════════════════════════════════ -->
+    <g>
+      <rect x="640" y="230" width="248" height="106" rx="10" fill="#0B0F16" fill-opacity="0.78" stroke="#22D3EE" stroke-opacity="0.22"/>
+      <text x="656" y="250" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" letter-spacing="1.8" fill="#6F7E92">INFERENCE GRAPH</text>
+      <g stroke="#22D3EE" stroke-opacity="0.28" stroke-width="0.8">
+        <path d="M684 272 L744 262 M684 272 L744 282 M684 272 L744 302 M684 292 L744 262 M684 292 L744 282 M684 292 L744 302 M684 312 L744 282 M684 312 L744 302"/>
+        <path d="M744 262 L806 272 M744 262 L806 296 M744 282 L806 272 M744 282 L806 296 M744 302 L806 272 M744 302 L806 296"/>
+        <path d="M806 272 L862 284 M806 296 L862 284"/>
+      </g>
+      <g fill="#09090B" stroke="#67E8F9" stroke-width="1.2">
+        <circle cx="684" cy="272" r="4"><animate attributeName="stroke" values="#67E8F9;#3BFFA1;#67E8F9" dur="3s" repeatCount="indefinite"/></circle>
+        <circle cx="684" cy="292" r="4"/><circle cx="684" cy="312" r="4"/>
+        <circle cx="744" cy="262" r="4"/><circle cx="744" cy="282" r="4"><animate attributeName="stroke" values="#67E8F9;#A855F7;#67E8F9" dur="3.6s" repeatCount="indefinite"/></circle>
+        <circle cx="744" cy="302" r="4"/>
+        <circle cx="806" cy="272" r="4"/><circle cx="806" cy="296" r="4"/>
+      </g>
+      <circle cx="862" cy="284" r="6" fill="none" stroke="#3BFFA1" stroke-width="1.4"/>
+      <circle cx="862" cy="284" r="2.4" fill="#3BFFA1"><animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/></circle>
+      <!-- travelling activations -->
+      <circle r="2.2" fill="#3BFFA1">
+        <animateMotion dur="2.6s" repeatCount="indefinite" path="M684,272 L744,282 L806,272 L862,284"/>
+        <animate attributeName="opacity" values="0;1;1;0" dur="2.6s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="2.2" fill="#A855F7">
+        <animateMotion dur="3.4s" repeatCount="indefinite" path="M684,312 L744,302 L806,296 L862,284"/>
+        <animate attributeName="opacity" values="0;1;1;0" dur="3.4s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- ══ RIGHT · TELEMETRY PANEL ═════════════════════════════════════ -->
+    <g>
+      <rect x="900" y="230" width="254" height="106" rx="10" fill="#0B0F16" fill-opacity="0.78" stroke="#A855F7" stroke-opacity="0.22"/>
+      <text x="916" y="250" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" letter-spacing="1.8" fill="#6F7E92">CORE TELEMETRY</text>
+      <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#5D6B7E">
+        <text x="916" y="272">MODEL</text><text x="916" y="296">BUILD</text><text x="916" y="320">LEARN</text>
+      </g>
+      <g>
+        <rect x="972" y="264" width="164" height="6" rx="3" fill="#1B2432"/>
+        <rect x="972" y="264" width="150" height="6" rx="3" fill="#22D3EE">
+          <animate attributeName="width" values="0;150" dur="1.8s" fill="freeze"/>
+        </rect>
+        <rect x="972" y="288" width="164" height="6" rx="3" fill="#1B2432"/>
+        <rect x="972" y="288" width="134" height="6" rx="3" fill="#A855F7">
+          <animate attributeName="width" values="0;134" dur="2.1s" fill="freeze"/>
+        </rect>
+        <rect x="972" y="312" width="164" height="6" rx="3" fill="#1B2432"/>
+        <rect x="972" y="312" width="164" height="6" rx="3" fill="#3BFFA1">
+          <animate attributeName="opacity" values="0.55;1;0.55" dur="2.6s" repeatCount="indefinite"/>
+          <animate attributeName="width" values="0;164" dur="2.4s" fill="freeze"/>
+        </rect>
+      </g>
+      <text x="1104" y="252" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#3BFFA1">∞ ALWAYS</text>
+    </g>
+
+    <!-- ══ HUD FRAME / OVERLAYS ════════════════════════════════════════ -->
+    <g fill="none" stroke="#22D3EE" stroke-opacity="0.28">
+      <rect x="14" y="14" width="1172" height="372" rx="14"/>
+    </g>
+    <g fill="none" stroke="#67E8F9" stroke-width="2" stroke-linecap="square" opacity="0.9">
+      <path d="M14 54 V22 Q14 14 22 14 H62"/>
+      <path d="M1186 54 V22 Q1186 14 1178 14 H1138"/>
+      <path d="M14 346 V378 Q14 386 22 386 H62"/>
+      <path d="M1186 346 V378 Q1186 386 1178 386 H1138"/>
+    </g>
+    <!-- edge ticks -->
+    <g stroke="#22D3EE" stroke-opacity="0.35" stroke-width="1">
+      <path d="M120 14 v7 M160 14 v7 M200 14 v7 M240 14 v7 M280 14 v7 M320 14 v7"/>
+      <path d="M880 386 v-7 M920 386 v-7 M960 386 v-7 M1000 386 v-7 M1040 386 v-7 M1080 386 v-7"/>
+    </g>
+    <text x="600" y="30" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" letter-spacing="3" fill="#3E4C5E">NODE 0x1718 · UPLINK STABLE · RENDER 60 FPS</text>
+    <text x="600" y="378" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" letter-spacing="3" fill="#3E4C5E">SCROLL TO INITIALISE ▾</text>
+
+    <!-- top edge light sweep -->
+    <rect x="14" y="13.2" width="140" height="2" rx="1" fill="url(#sweep)">
+      <animate attributeName="x" values="-140;1186" dur="6.5s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="1046" y="384.8" width="140" height="2" rx="1" fill="url(#sweep)">
+      <animate attributeName="x" values="1186;-140" dur="8.5s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- global scanline -->
+    <rect x="0" y="-70" width="1200" height="70" fill="url(#scanGrad)" opacity="0.10">
+      <animate attributeName="y" values="-70;400" dur="9s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>

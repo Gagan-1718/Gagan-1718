@@ -1,0 +1,239 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" aria-label="Skill tree with four branches: AI and Vision, Full Stack, Core CS, and Data and Tools.">
+  <title>Skill Tree — Gagandeep N</title>
+
+  <defs>
+    <radialGradient id="sHub" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sChip" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.055"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.012"/>
+    </linearGradient>
+    <linearGradient id="sSweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#67E8F9"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="sHex" width="27.71" height="48" patternUnits="userSpaceOnUse">
+      <g fill="none" stroke="#22D3EE" stroke-width="0.6" stroke-opacity="0.45">
+        <path d="M13.855 -16 L27.71 -8 L27.71 8 L13.855 16 L0 8 L0 -8 Z"/>
+        <path d="M13.855 32 L27.71 40 L27.71 56 L13.855 64 L0 56 L0 40 Z"/>
+        <path d="M0 8 L13.855 16 L13.855 32 L0 40 L-13.855 32 L-13.855 16 Z"/>
+        <path d="M27.71 8 L41.565 16 L41.565 32 L27.71 40 L13.855 32 L13.855 16 Z"/>
+      </g>
+    </pattern>
+    <filter id="sGlow" x="-70%" y="-70%" width="240%" height="240%">
+      <feGaussianBlur stdDeviation="3.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="560" fill="#09090B"/>
+  <rect width="1000" height="560" fill="url(#sHex)" opacity="0.12"/>
+  <circle cx="500" cy="295" r="260" fill="url(#sHub)"/>
+
+  <!-- header -->
+  <g>
+    <text x="20" y="30" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" letter-spacing="3.4" fill="#67E8F9">SKILL TREE</text>
+    <path d="M144 25 H846" stroke="#22D3EE" stroke-opacity="0.28"/>
+    <rect x="144" y="24" width="96" height="2" fill="url(#sSweep)">
+      <animate attributeName="x" values="144;750;144" dur="8s" repeatCount="indefinite"/>
+    </rect>
+    <text x="866" y="30" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" letter-spacing="2" fill="#5D6B7E">4 BRANCHES</text>
+  </g>
+
+  <!-- ── branch spines (hub → quadrant) ───────────────────────────────── -->
+  <g fill="none" stroke-width="1.6" opacity="0.55">
+    <path d="M500 295 L285 165" stroke="#A855F7"/>
+    <path d="M500 295 L715 165" stroke="#3BFFA1"/>
+    <path d="M500 295 L285 425" stroke="#3B82F6"/>
+    <path d="M500 295 L715 425" stroke="#22D3EE"/>
+  </g>
+  <!-- energy pulses -->
+  <g>
+    <circle r="3" fill="#C99BFF" filter="url(#sGlow)">
+      <animateMotion dur="3.2s" repeatCount="indefinite" path="M500,295 L285,165"/>
+      <animate attributeName="opacity" values="0;1;1;0" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3" fill="#7CFFC4" filter="url(#sGlow)">
+      <animateMotion dur="3.8s" repeatCount="indefinite" path="M500,295 L715,165"/>
+      <animate attributeName="opacity" values="0;1;1;0" dur="3.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3" fill="#7CB0FF" filter="url(#sGlow)">
+      <animateMotion dur="4.4s" repeatCount="indefinite" path="M500,295 L285,425"/>
+      <animate attributeName="opacity" values="0;1;1;0" dur="4.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3" fill="#67E8F9" filter="url(#sGlow)">
+      <animateMotion dur="3.5s" repeatCount="indefinite" path="M500,295 L715,425"/>
+      <animate attributeName="opacity" values="0;1;1;0" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- ── leaf connectors ──────────────────────────────────────────────── -->
+  <g fill="none" stroke-width="1.2" opacity="0.42">
+    <g stroke="#A855F7">
+      <path d="M285 165 L220 69"/><path d="M285 165 L210 165"/><path d="M285 165 L248 261"/>
+    </g>
+    <g stroke="#3BFFA1">
+      <path d="M715 165 L780 69"/><path d="M715 165 L790 165"/><path d="M715 165 L752 261"/>
+    </g>
+    <g stroke="#3B82F6">
+      <path d="M285 425 L248 329"/><path d="M285 425 L210 425"/><path d="M285 425 L220 521"/>
+    </g>
+    <g stroke="#22D3EE">
+      <path d="M715 425 L752 329"/><path d="M715 425 L790 425"/><path d="M715 425 L780 521"/>
+    </g>
+  </g>
+
+  <!-- ── leaf chips ───────────────────────────────────────────────────── -->
+  <!-- AI / VISION -->
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15">
+    <g>
+      <rect x="24" y="52" width="196" height="34" rx="7" fill="#0B0F16" stroke="#A855F7" stroke-opacity="0.38"/>
+      <rect x="24" y="52" width="196" height="34" rx="7" fill="url(#sChip)"/>
+      <text x="40" y="74" fill="#E4EAF2">Computer Vision</text>
+      <rect x="30" y="83" width="184" height="2" rx="1" fill="#1B2432"/>
+      <rect x="30" y="83" width="160" height="2" rx="1" fill="#A855F7"/>
+    </g>
+    <g>
+      <rect x="14" y="148" width="196" height="34" rx="7" fill="#0B0F16" stroke="#A855F7" stroke-opacity="0.38"/>
+      <rect x="14" y="148" width="196" height="34" rx="7" fill="url(#sChip)"/>
+      <text x="30" y="170" fill="#E4EAF2">Image Processing</text>
+      <rect x="20" y="179" width="184" height="2" rx="1" fill="#1B2432"/>
+      <rect x="20" y="179" width="146" height="2" rx="1" fill="#A855F7"/>
+    </g>
+    <g>
+      <rect x="52" y="244" width="196" height="34" rx="7" fill="#0B0F16" stroke="#A855F7" stroke-opacity="0.38"/>
+      <rect x="52" y="244" width="196" height="34" rx="7" fill="url(#sChip)"/>
+      <text x="68" y="266" fill="#E4EAF2">Prompt Engineering</text>
+      <rect x="58" y="275" width="184" height="2" rx="1" fill="#1B2432"/>
+      <rect x="58" y="275" width="168" height="2" rx="1" fill="#A855F7"/>
+    </g>
+  </g>
+
+  <!-- FULL STACK -->
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15">
+    <g>
+      <rect x="780" y="52" width="196" height="34" rx="7" fill="#0B0F16" stroke="#3BFFA1" stroke-opacity="0.34"/>
+      <rect x="780" y="52" width="196" height="34" rx="7" fill="url(#sChip)"/>
+      <text x="796" y="74" fill="#E4EAF2">MERN Stack</text>
+      <rect x="786" y="83" width="184" height="2" rx="1" fill="#1B2432"/>
+      <rect x="786" y="83" width="158" height="2" rx="1" fill="#3BFFA1"/>
+    </g>
+    <g>
+      <rect x="790" y="148" width="196" height="34" rx="7" fill="#0B0F16" stroke="#3BFFA1" stroke-opacity="0.34"/>
+      <rect x="790" y="148" width="196" height="34" rx="7" fill="url(#sChip)"/>
+      <text x="806" y="170" fill="#E4EAF2">React · Next.js</text>
+      <rect x="796" y="179" width="184" height="2" rx="1" fill="#1B2432"/>
+      <rect x="796" y="179" width="150" height="2" rx="1" fill="#3BFFA1"/>
+    </g>
+    <g>
+      <rect x="752" y="244" width="196" height="34" rx="7" fill="#0B0F16" stroke="#3BFFA1" stroke-opacity="0.34"/>
+      <rect x="752" y="244" width="196" height="34" rx="7" fill="url(#sChip)"/>
+      <text x="768" y="266" fill="#E4EAF2">Node · Express</text>
+      <rect x="758" y="275" width="184" height="2" rx="1" fill="#1B2432"/>
+      <rect x="758" y="275" width="140" height="2" rx="1" fill="#3BFFA1"/>
+    </g>
+  </g>
+
+  <!-- CORE CS -->
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15">
+    <g>
+      <rect x="52" y="312" width="196" height="34" rx="7" fill="#0B0F16" stroke="#3B82F6" stroke-opacity="0.38"/>
+      <rect x="52" y="312" width="196" height="34" rx="7" fill="url(#sChip)"/>
+      <text x="68" y="334" fill="#E4EAF2">DSA · Algorithms</text>
+      <rect x="58" y="343" width="184" height="2" rx="1" fill="#1B2432"/>
+      <rect x="58" y="343" width="154" height="2" rx="1" fill="#3B82F6"/>
+    </g>
+    <g>
+      <rect x="14" y="408" width="196" height="34" rx="7" fill="#0B0F16" stroke="#3B82F6" stroke-opacity="0.38"/>
+      <rect x="14" y="408" width="196" height="34" rx="7" fill="url(#sChip)"/>
+      <text x="30" y="430" fill="#E4EAF2">OOP · Design</text>
+      <rect x="20" y="439" width="184" height="2" rx="1" fill="#1B2432"/>
+      <rect x="20" y="439" width="162" height="2" rx="1" fill="#3B82F6"/>
+    </g>
+    <g>
+      <rect x="24" y="504" width="196" height="34" rx="7" fill="#0B0F16" stroke="#3B82F6" stroke-opacity="0.38"/>
+      <rect x="24" y="504" width="196" height="34" rx="7" fill="url(#sChip)"/>
+      <text x="40" y="526" fill="#E4EAF2">OS · Networks</text>
+      <rect x="30" y="535" width="184" height="2" rx="1" fill="#1B2432"/>
+      <rect x="30" y="535" width="138" height="2" rx="1" fill="#3B82F6"/>
+    </g>
+  </g>
+
+  <!-- DATA / TOOLS -->
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15">
+    <g>
+      <rect x="752" y="312" width="196" height="34" rx="7" fill="#0B0F16" stroke="#22D3EE" stroke-opacity="0.38"/>
+      <rect x="752" y="312" width="196" height="34" rx="7" fill="url(#sChip)"/>
+      <text x="768" y="334" fill="#E4EAF2">NumPy · Pandas</text>
+      <rect x="758" y="343" width="184" height="2" rx="1" fill="#1B2432"/>
+      <rect x="758" y="343" width="156" height="2" rx="1" fill="#22D3EE"/>
+    </g>
+    <g>
+      <rect x="790" y="408" width="196" height="34" rx="7" fill="#0B0F16" stroke="#22D3EE" stroke-opacity="0.38"/>
+      <rect x="790" y="408" width="196" height="34" rx="7" fill="url(#sChip)"/>
+      <text x="806" y="430" fill="#E4EAF2">Power BI · Excel</text>
+      <rect x="796" y="439" width="184" height="2" rx="1" fill="#1B2432"/>
+      <rect x="796" y="439" width="132" height="2" rx="1" fill="#22D3EE"/>
+    </g>
+    <g>
+      <rect x="780" y="504" width="196" height="34" rx="7" fill="#0B0F16" stroke="#22D3EE" stroke-opacity="0.38"/>
+      <rect x="780" y="504" width="196" height="34" rx="7" fill="url(#sChip)"/>
+      <text x="796" y="526" fill="#E4EAF2">Git · GitHub</text>
+      <rect x="786" y="535" width="184" height="2" rx="1" fill="#1B2432"/>
+      <rect x="786" y="535" width="166" height="2" rx="1" fill="#22D3EE"/>
+    </g>
+  </g>
+
+  <!-- ── branch hexes ─────────────────────────────────────────────────── -->
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5" letter-spacing="1.6" text-anchor="middle">
+    <g transform="translate(285,165)">
+      <path d="M0 -42 L36.4 -21 L36.4 21 L0 42 L-36.4 21 L-36.4 -21 Z" fill="#0A0E15" stroke="#A855F7" stroke-opacity="0.7" stroke-width="1.6"/>
+      <path d="M0 -30 L26 -15 L26 15 L0 30 L-26 15 L-26 -15 Z" fill="none" stroke="#A855F7" stroke-opacity="0.25"/>
+      <text y="-2" fill="#C99BFF">AI /</text>
+      <text y="14" fill="#C99BFF">VISION</text>
+    </g>
+    <g transform="translate(715,165)">
+      <path d="M0 -42 L36.4 -21 L36.4 21 L0 42 L-36.4 21 L-36.4 -21 Z" fill="#0A0E15" stroke="#3BFFA1" stroke-opacity="0.6" stroke-width="1.6"/>
+      <path d="M0 -30 L26 -15 L26 15 L0 30 L-26 15 L-26 -15 Z" fill="none" stroke="#3BFFA1" stroke-opacity="0.22"/>
+      <text y="-2" fill="#7CFFC4">FULL</text>
+      <text y="14" fill="#7CFFC4">STACK</text>
+    </g>
+    <g transform="translate(285,425)">
+      <path d="M0 -42 L36.4 -21 L36.4 21 L0 42 L-36.4 21 L-36.4 -21 Z" fill="#0A0E15" stroke="#3B82F6" stroke-opacity="0.7" stroke-width="1.6"/>
+      <path d="M0 -30 L26 -15 L26 15 L0 30 L-26 15 L-26 -15 Z" fill="none" stroke="#3B82F6" stroke-opacity="0.25"/>
+      <text y="-2" fill="#7CB0FF">CORE</text>
+      <text y="14" fill="#7CB0FF">CS</text>
+    </g>
+    <g transform="translate(715,425)">
+      <path d="M0 -42 L36.4 -21 L36.4 21 L0 42 L-36.4 21 L-36.4 -21 Z" fill="#0A0E15" stroke="#22D3EE" stroke-opacity="0.7" stroke-width="1.6"/>
+      <path d="M0 -30 L26 -15 L26 15 L0 30 L-26 15 L-26 -15 Z" fill="none" stroke="#22D3EE" stroke-opacity="0.25"/>
+      <text y="-2" fill="#67E8F9">DATA /</text>
+      <text y="14" fill="#67E8F9">TOOLS</text>
+    </g>
+  </g>
+
+  <!-- ── central hub ──────────────────────────────────────────────────── -->
+  <g transform="translate(500,295)">
+    <circle r="86" fill="none" stroke="#22D3EE" stroke-opacity="0.14" stroke-dasharray="3 9">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="30s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="72" fill="none" stroke="#A855F7" stroke-opacity="0.16" stroke-dasharray="14 10">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="22s" repeatCount="indefinite"/>
+    </circle>
+    <path d="M0 -58 L50.2 -29 L50.2 29 L0 58 L-50.2 29 L-50.2 -29 Z" fill="#0A0E15" stroke="#67E8F9" stroke-width="2" filter="url(#sGlow)"/>
+    <path d="M0 -42 L36.4 -21 L36.4 21 L0 42 L-36.4 21 L-36.4 -21 Z" fill="none" stroke="#22D3EE" stroke-opacity="0.35"/>
+    <text y="-6" text-anchor="middle" font-family="Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="2" fill="#FFFFFF">CORE</text>
+    <text y="16" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5" letter-spacing="2" fill="#67E8F9">ENGINE</text>
+    <circle cy="34" r="3" fill="#3BFFA1">
+      <animate attributeName="opacity" values="1;0.2;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- scanline -->
+  <rect x="0" y="-70" width="1000" height="70" fill="#22D3EE" opacity="0.04">
+    <animate attributeName="y" values="-70;560" dur="11s" repeatCount="indefinite"/>
+  </rect>
+</svg>

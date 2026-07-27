@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" width="1000" height="360" role="img" aria-label="Player dossier: Gagandeep N, AI and Computer Vision engineer, full stack developer, status online, open to collaboration.">
+  <title>Player Dossier — Gagandeep N</title>
+
+  <defs>
+    <linearGradient id="pGlass" x1="0" y1="0" x2="0.7" y2="1">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.09"/>
+      <stop offset="1" stop-color="#A855F7" stop-opacity="0.035"/>
+    </linearGradient>
+    <linearGradient id="pName" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#67E8F9"/>
+      <stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="pSweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#67E8F9"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="pAura" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="pHex" width="27.71" height="48" patternUnits="userSpaceOnUse">
+      <g fill="none" stroke="#22D3EE" stroke-width="0.6" stroke-opacity="0.55">
+        <path d="M13.855 -16 L27.71 -8 L27.71 8 L13.855 16 L0 8 L0 -8 Z"/>
+        <path d="M13.855 32 L27.71 40 L27.71 56 L13.855 64 L0 56 L0 40 Z"/>
+        <path d="M0 8 L13.855 16 L13.855 32 L0 40 L-13.855 32 L-13.855 16 Z"/>
+        <path d="M27.71 8 L41.565 16 L41.565 32 L27.71 40 L13.855 32 L13.855 16 Z"/>
+      </g>
+    </pattern>
+    <filter id="pGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="360" fill="#09090B"/>
+  <ellipse cx="180" cy="180" rx="300" ry="220" fill="url(#pAura)"/>
+  <rect width="1000" height="360" fill="url(#pHex)" opacity="0.16"/>
+
+  <!-- ── header strip ─────────────────────────────────────────────────── -->
+  <g>
+    <text x="20" y="34" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" letter-spacing="3.4" fill="#67E8F9">PLAYER DOSSIER</text>
+    <path d="M182 29 H860" stroke="#22D3EE" stroke-opacity="0.28"/>
+    <rect x="182" y="28" width="90" height="2" fill="url(#pSweep)">
+      <animate attributeName="x" values="182;770;182" dur="7s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="880" cy="28" r="4" fill="#3BFFA1"><animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/></circle>
+    <text x="894" y="33" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" letter-spacing="2" fill="#7CFFC4">LIVE</text>
+  </g>
+
+  <!-- ── identity card ────────────────────────────────────────────────── -->
+  <g>
+    <rect x="20" y="52" width="326" height="288" rx="12" fill="#0B0F16" fill-opacity="0.9" stroke="#22D3EE" stroke-opacity="0.32"/>
+    <rect x="20" y="52" width="326" height="288" rx="12" fill="url(#pGlass)"/>
+    <g fill="none" stroke="#67E8F9" stroke-width="2" opacity="0.9">
+      <path d="M20 84 V64 Q20 52 32 52 H56"/>
+      <path d="M346 308 V328 Q346 340 334 340 H310"/>
+    </g>
+
+    <!-- hex emblem -->
+    <g transform="translate(96,140)">
+      <path d="M0 -52 L45 -26 L45 26 L0 52 L-45 26 L-45 -26 Z" fill="#0A1018" stroke="#22D3EE" stroke-opacity="0.55" stroke-width="1.6"/>
+      <path d="M0 -40 L34.6 -20 L34.6 20 L0 40 L-34.6 20 L-34.6 -20 Z" fill="none" stroke="#A855F7" stroke-opacity="0.5" stroke-width="1"/>
+      <text x="0" y="14" text-anchor="middle" font-family="Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="40" font-weight="700" fill="url(#pName)" filter="url(#pGlow)">GN</text>
+      <g fill="none" stroke="#3BFFA1" stroke-width="1.6" opacity="0.85">
+        <path d="M-45 -14 L-45 -26 L-34 -32"/>
+        <path d="M45 14 L45 26 L34 32"/>
+      </g>
+      <circle cx="0" cy="0" r="58" fill="none" stroke="#22D3EE" stroke-opacity="0.18" stroke-dasharray="4 8">
+        <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="26s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- name block -->
+    <g>
+      <text x="164" y="118" font-family="Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="24" font-weight="700" letter-spacing="0.4" fill="#F4F7FB">Gagandeep N</text>
+      <text x="164" y="141" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12.5" letter-spacing="1.2" fill="#67E8F9">@Gagan-1718</text>
+      <rect x="164" y="154" width="150" height="1.4" fill="#22D3EE" fill-opacity="0.3"/>
+      <text x="164" y="178" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" letter-spacing="1" fill="#8B95A7">CS UNDERGRADUATE</text>
+    </g>
+
+    <!-- level meter -->
+    <g>
+      <text x="48" y="232" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5" letter-spacing="2" fill="#5D6B7E">LEVEL</text>
+      <text x="112" y="232" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5" letter-spacing="1.4" fill="#C9D6E4">UNDERGRAD · YEAR III</text>
+      <rect x="48" y="242" width="250" height="8" rx="4" fill="#161D28"/>
+      <rect x="48" y="242" width="188" height="8" rx="4" fill="#22D3EE">
+        <animate attributeName="width" values="0;188" dur="1.9s" fill="freeze"/>
+      </rect>
+      <circle cx="236" cy="246" r="5" fill="#09090B" stroke="#67E8F9" stroke-width="1.6" filter="url(#pGlow)"/>
+      <text x="48" y="272" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" letter-spacing="1.6" fill="#5D6B7E">XP · SHIP · SOLVE · REPEAT</text>
+    </g>
+
+    <!-- traits -->
+    <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" letter-spacing="1.2">
+      <rect x="48" y="292" width="86" height="24" rx="4" fill="#22D3EE" fill-opacity="0.07" stroke="#22D3EE" stroke-opacity="0.32"/>
+      <text x="60" y="308" fill="#67E8F9">BUILDER</text>
+      <rect x="142" y="292" width="90" height="24" rx="4" fill="#A855F7" fill-opacity="0.07" stroke="#A855F7" stroke-opacity="0.32"/>
+      <text x="154" y="308" fill="#C99BFF">RESEARCHER</text>
+      <rect x="240" y="292" width="80" height="24" rx="4" fill="#3BFFA1" fill-opacity="0.07" stroke="#3BFFA1" stroke-opacity="0.28"/>
+      <text x="252" y="308" fill="#7CFFC4">SHIPPER</text>
+    </g>
+  </g>
+
+  <!-- ── stat grid ────────────────────────────────────────────────────── -->
+  <!-- row 1 -->
+  <g>
+    <rect x="366" y="52" width="196" height="136" rx="10" fill="#0B0F16" fill-opacity="0.88" stroke="#22D3EE" stroke-opacity="0.22"/>
+    <path d="M366 62 v-4 q0-6 6-6 h34" fill="none" stroke="#67E8F9" stroke-width="2"/>
+    <text x="386" y="82" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" letter-spacing="2.4" fill="#5D6B7E">ROLE</text>
+    <text x="386" y="112" font-family="Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="19" font-weight="600" fill="#F4F7FB">AI / CV</text>
+    <text x="386" y="136" font-family="Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="19" font-weight="600" fill="#67E8F9">Engineer</text>
+    <text x="386" y="164" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#5D6B7E">+ Full Stack Dev</text>
+  </g>
+  <g>
+    <rect x="578" y="52" width="196" height="136" rx="10" fill="#0B0F16" fill-opacity="0.88" stroke="#A855F7" stroke-opacity="0.22"/>
+    <path d="M578 62 v-4 q0-6 6-6 h34" fill="none" stroke="#C99BFF" stroke-width="2"/>
+    <text x="598" y="82" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" letter-spacing="2.4" fill="#5D6B7E">PRIMARY DOMAIN</text>
+    <text x="598" y="112" font-family="Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="19" font-weight="600" fill="#F4F7FB">Computer</text>
+    <text x="598" y="136" font-family="Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="19" font-weight="600" fill="#C99BFF">Vision</text>
+    <text x="598" y="164" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#5D6B7E">Image · Perception</text>
+  </g>
+  <g>
+    <rect x="790" y="52" width="190" height="136" rx="10" fill="#0B0F16" fill-opacity="0.88" stroke="#3BFFA1" stroke-opacity="0.20"/>
+    <path d="M980 178 v4 q0 6-6 6 h-34" fill="none" stroke="#7CFFC4" stroke-width="2"/>
+    <text x="810" y="82" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" letter-spacing="2.4" fill="#5D6B7E">STATUS</text>
+    <g>
+      <circle cx="818" cy="106" r="5" fill="#3BFFA1"><animate attributeName="opacity" values="1;0.3;1" dur="1.9s" repeatCount="indefinite"/></circle>
+      <circle cx="818" cy="106" r="5" fill="none" stroke="#3BFFA1" stroke-width="1">
+        <animate attributeName="r" values="5;13" dur="1.9s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.6;0" dur="1.9s" repeatCount="indefinite"/>
+      </circle>
+      <text x="834" y="112" font-family="Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="19" font-weight="600" fill="#7CFFC4">ONLINE</text>
+    </g>
+    <text x="810" y="140" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#C9D6E4">Open to collab</text>
+    <text x="810" y="164" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#5D6B7E">&amp; internships</text>
+  </g>
+
+  <!-- row 2 -->
+  <g>
+    <rect x="366" y="204" width="196" height="136" rx="10" fill="#0B0F16" fill-opacity="0.88" stroke="#22D3EE" stroke-opacity="0.22"/>
+    <path d="M562 330 v4 q0 6-6 6 h-34" fill="none" stroke="#67E8F9" stroke-width="2"/>
+    <text x="386" y="234" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" letter-spacing="2.4" fill="#5D6B7E">CURRENT FOCUS</text>
+    <text x="386" y="264" font-family="Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="19" font-weight="600" fill="#F4F7FB">Vision models</text>
+    <text x="386" y="288" font-family="Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="19" font-weight="600" fill="#67E8F9">+ MERN apps</text>
+    <text x="386" y="316" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#5D6B7E">shipping end-to-end</text>
+  </g>
+  <g>
+    <rect x="578" y="204" width="196" height="136" rx="10" fill="#0B0F16" fill-opacity="0.88" stroke="#FF2E88" stroke-opacity="0.20"/>
+    <text x="598" y="234" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" letter-spacing="2.4" fill="#5D6B7E">LOCATION</text>
+    <!-- ⚙ EDIT: change the two lines below to your city / region -->
+    <text x="598" y="264" font-family="Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="19" font-weight="600" fill="#F4F7FB">India</text>
+    <text x="598" y="288" font-family="Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="16" font-weight="600" fill="#FF6FAE">UTC +05:30</text>
+    <text x="598" y="316" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#5D6B7E">Remote friendly</text>
+    <g stroke="#FF2E88" stroke-opacity="0.5" fill="none">
+      <circle cx="744" cy="272" r="18"/>
+      <path d="M726 272 H762 M744 254 v36"/>
+      <path d="M744 254 a24 18 0 0 1 0 36 a24 18 0 0 1 0 -36"/>
+    </g>
+  </g>
+  <g>
+    <rect x="790" y="204" width="190" height="136" rx="10" fill="#0B0F16" fill-opacity="0.88" stroke="#A855F7" stroke-opacity="0.22"/>
+    <text x="810" y="234" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" letter-spacing="2.4" fill="#5D6B7E">LEARNING</text>
+    <text x="810" y="264" font-family="Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="17" font-weight="600" fill="#F4F7FB">Deep learning</text>
+    <text x="810" y="288" font-family="Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="17" font-weight="600" fill="#C99BFF">+ System design</text>
+    <g>
+      <rect x="810" y="306" width="150" height="6" rx="3" fill="#161D28"/>
+      <rect x="810" y="306" width="112" height="6" rx="3" fill="#A855F7">
+        <animate attributeName="width" values="0;112" dur="2.2s" fill="freeze"/>
+        <animate attributeName="opacity" values="0.7;1;0.7" dur="3s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <text x="810" y="330" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#5D6B7E">CONTINUOUS · NO CAP</text>
+  </g>
+
+  <!-- scanline -->
+  <rect x="0" y="-60" width="1000" height="60" fill="#22D3EE" opacity="0.045">
+    <animate attributeName="y" values="-60;360" dur="10s" repeatCount="indefinite"/>
+  </rect>
+</svg>
